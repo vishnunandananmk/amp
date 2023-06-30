@@ -42,9 +42,9 @@ it("should return plaintext AND `|` since both properties are set", () => {
         config={{
           strings: [
             `${formatOf("ENGINEER")}`,
-            `${formatOf("STUDENT")}`,
-            `${formatOf("MUSICIAN")}`,
-            `${formatOf("WRITER")}`,
+            `${formatOf("D")}`,
+            `${formatOf("M")}`,
+            `${formatOf("W")}`,
           ],
           autoStart: true,
           loop: true,
@@ -64,9 +64,9 @@ it("should RETURN `|` since the config property is set", () => {
         config={{
           strings: [
             `${formatOf("ENGINEER")}`,
-            `${formatOf("STUDENT")}`,
-            `${formatOf("MUSICIAN")}`,
-            `${formatOf("WRITER")}`,
+            `${formatOf("D")}`,
+            `${formatOf("M")}`,
+            `${formatOf("W")}`,
           ],
           autoStart: true,
           loop: true,
